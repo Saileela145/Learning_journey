@@ -1,7 +1,7 @@
-<<<<<<< HEAD
-a=input("enter a string:")
-print(a[::-1])
-=======
-a=input("enter a string:")
-print(a[::-1])
->>>>>>> 43d0729283787bdad5828806f7eb7bed97c4c756
+def reverse_string(s: str) -> str:
+    return s[::-1]
+
+
+if __name__ == "__main__":
+    text = input("Enter a string: ")
+    print(reverse_string(text))

@@ -1,13 +1,10 @@
-<<<<<<< HEAD
-n=int(input("enter a number:"))
-if n%2==0:
-    print(n,"is an even number")
-else:
-    print(n,"is an odd number")
-=======
-n=int(input("enter a number:"))
-if n%2==0:
-    print(n,"is an even number")
-else:
-    print(n,"is an odd number")
->>>>>>> 43d0729283787bdad5828806f7eb7bed97c4c756
+def is_even(n: int) -> bool:
+    return n % 2 == 0
+
+
+if __name__ == "__main__":
+    num = int(input("Enter a number: "))
+    if is_even(num):
+        print("Even")
+    else:
+        print("Odd")
