@@ -1,4 +1,4 @@
-from programs.Check_even_odd import is_even
+from programs.Day-1.Check_even_odd import is_even
 
 def test_even_numbers():
     assert is_even(4) is True
