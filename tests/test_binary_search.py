@@ -1,4 +1,4 @@
-from programs.Day-1.Binary_search_code import binary_search
+from programs.day1.Binary_search_code import binary_search
 
 def test_binary_search_found():
     arr = [2, 3, 5, 7, 43, 45, 87]
