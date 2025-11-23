@@ -1,4 +1,8 @@
-from task3.linear_search import linear_search
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from programs.day2.task3.linear_search import linear_search
 
 def test_linear_search():
     assert linear_search([10, 20, 30], 20) == 1
