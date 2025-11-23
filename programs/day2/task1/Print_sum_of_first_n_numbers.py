@@ -5,4 +5,4 @@ def natural(n):
         total+=i
         i+=1
     return total
-print(natural(10))
+
