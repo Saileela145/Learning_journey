@@ -1,4 +1,4 @@
-from day2.task2.Sort_list import sorting
+from ..programs.day2.task2.Sort_list import sorting
 
 def test_sorting():
     assert sorting([3, 1, 2]) == [1, 2, 3]
