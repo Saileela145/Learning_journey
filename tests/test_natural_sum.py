@@ -1,4 +1,9 @@
-from ..programs.day2.task1.print_sum_of_first_n_numbers import natural
+import sys
+import os
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from programs.day2.task1.print_sum_of_first_n_numbers import natural
 
 def test_natural_sum():
     assert natural(5) == 15
