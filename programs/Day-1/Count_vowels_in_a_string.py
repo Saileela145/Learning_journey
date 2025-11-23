@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 def vowels(ch):
     return ch.lower() in ['a','e','i','o','u']
 def countvowls(str):
@@ -11,7 +11,6 @@ def countvowls(str):
 str=input("enter a string:")
 print("the vowels in a string",countvowls(str))
     
-=======
 def vowels(ch):
     return ch.lower() in ['a','e','i','o','u']
 def countvowls(str):
@@ -24,4 +23,4 @@ def countvowls(str):
 str=input("enter a string:")
 print("the vowels in a string",countvowls(str))
     
->>>>>>> 43d0729283787bdad5828806f7eb7bed97c4c756
+
