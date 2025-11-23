@@ -1,5 +1,7 @@
 import sys
 import os
+
+# Add root folder to Python path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from programs.day2.task3.linear_search import linear_search
