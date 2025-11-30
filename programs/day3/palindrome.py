@@ -9,12 +9,4 @@ else:
     print(f"{word} is not palindrome")
 
 
-num=123321
-if palindrome(str(num)):
-    print(f"{num} is palindrome")
-else:
-    print(f"{num} is not palindrome")
-          
-
-          
           
