@@ -7,5 +7,3 @@ def wordfreq(sentence):
         else:
             freq[w]=1
     return freq        
-sentence="this is a string this is a words"
-print(wordfreq(sentence))
