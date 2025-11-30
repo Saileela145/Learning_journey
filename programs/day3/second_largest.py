@@ -1,9 +1,10 @@
-def second_num(number):
-    if len(number)<2:
+def second_largest(numbers):
+    if len(numbers) < 2:
         return None
-    uniquenum=sorted(list(set(number)))
-    if len(uniquenum)<2:
-        return None
-    else:
-        return uniquenum[-2]
 
+    unique_numbers = sorted(set(numbers))
+
+    if len(unique_numbers) < 2:
+        return None
+
+    return unique_numbers[-2]
