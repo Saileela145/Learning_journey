@@ -9,6 +9,4 @@ def bubble(arr):
         if swapped==False:
             break
     return arr
-mylist=[65,87,43,21,98,21,1,5,2,6]
-result=bubble(mylist)
-print("sortedlist:",result)
+)
