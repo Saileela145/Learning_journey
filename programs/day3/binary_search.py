@@ -11,11 +11,3 @@ def binary(arr,target):
         else:
             low=mid+1
     return -1
-mylist=[32,4,76,21,87,43,1,8,43,36]
-mylist.sort()
-targetvalue=8
-index=binary(mylist,targetvalue)
-if index!=-1:
-    print(f"the {targetvalue} is in the index {index}")
-else:
-    print("the target not found")
