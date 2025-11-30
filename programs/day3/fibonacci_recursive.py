@@ -1,6 +1,8 @@
-def fib(n):
-    if n<=1:
+def fib_rec(n):
+    if n <= 1:
         return n
-    return fib(n-1)+fib(n-2)
-for i in range(10):
-    print(fib(i),end=" ")
+    return fib_rec(n - 1) + fib_rec(n - 2)
+
+
+def fibonacci_recursive(n):
+    return [fib_rec(i) for i in range(n)]
