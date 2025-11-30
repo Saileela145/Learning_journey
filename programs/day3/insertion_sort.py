@@ -10,6 +10,3 @@ def insertion(arr):
             j-=1
         arr[j+1]=key
     return arr    
-mylist=[6,98,21,2,76,87,32]
-result=insertion(mylist)
-print(result)
