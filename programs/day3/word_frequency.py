@@ -1,9 +1,11 @@
-def wordfreq(sentence):
-    words=sentence.lower().split()
-    freq={}
+def word_frequency(sentence):
+    words = sentence.lower().split()
+    freq = {}
+
     for w in words:
         if w in freq:
-            freq[w]+=1
+            freq[w] += 1
         else:
-            freq[w]=1
-    return freq        
+            freq[w] = 1
+
+    return freq
