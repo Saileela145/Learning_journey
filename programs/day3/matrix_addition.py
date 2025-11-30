@@ -8,9 +8,4 @@ def addmatrix(matrix1,matrix2):
         for j in range(cols):
             result[i][j]=matrix1[i][j]+matrix2[i][j]
     return result
-matrixa=[[1,4,6],[3,6,8],[1,0,3]]
-matrixb=[[6,7,2],[8,5,8],[5,3,2]]
-sum=addmatrix(matrixa,matrixb)
-print("the sum of matrix is:")
-for rows in sum:
-    print(rows)
+
