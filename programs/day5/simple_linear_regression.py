@@ -8,7 +8,6 @@ import math
 
 DATA_PATH = "programs/day5/data/cleaned_salary.csv"
 MODEL_PATH = r"programs/day5/model_salary.pkl"
-
 df = pd.read_csv(DATA_PATH)
 
 X = df[["YearsExperience"]]

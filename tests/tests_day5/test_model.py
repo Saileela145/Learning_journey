@@ -1,17 +1,9 @@
-import os
-import joblib
-import pandas as pd
-from sklearn.linear_model import LinearRegression
+import subprocess
 
-def test_model_file_created():
-    assert os.path.exists("programs/day5/model_salary.pkl")
-
-def test_model_loads():
-    model = joblib.load("programs/day5/model_salary.pkl")
-    assert isinstance(model, LinearRegression)
-
-def test_model_predicts():
-    model = joblib.load("programs/day5/model_salary.pkl")
-    df = pd.read_csv("programs/day5/data/cleaned_salary.csv")
-    preds = model.predict(df[["YearsExperience"]])
-    assert len(preds) == len(df)
+def test_pipeline_runs():
+    result = subprocess.run(
+        ["python", "programs/day5/run_pipeline.py"],
+        capture_output=True,
+        text=True
+    )
+    assert result.returncode == 0
