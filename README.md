@@ -87,17 +87,16 @@ I will add:
 
 This will make the repository fully professional.
 
----
+
 
 ## 🧑‍💻 Maintainer
 
 **Sai Leela D**  
 I am learning daily and updating this repository as I grow.
 
----
 
 
-<<<<<<< HEAD
+
 learning_journey/
 │
 ├── src/
@@ -107,11 +106,11 @@ learning_journey/
 ├── README.md
 └── .venv/            # Virtual environment (ignored by Git)
 ## ▶ Run the Project
-```cmd
+
 python src/main.py
 ## 📌 About
 This repository contains all my learning programs and development practice as I progress from basics to advanced level in Python and software development.
-=======
+
 # Learning_journey
->>>>>>> 43d0729283787bdad5828806f7eb7bed97c4c756
+
 
